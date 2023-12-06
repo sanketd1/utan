@@ -1,0 +1,716 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css" integrity="sha512-UTNP5BXLIptsaj5WdKFrkFov94lDx+eBvbKyoe1YAfjeRPC+gT5kyZ10kOHCfNZqEui1sxmqvodNUx3KbuYI/A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+</head>
+<body>
+      <!----------Navbar------------->
+      <nav class="navbar navbar-expand-lg sticky-top">
+        <div class="container">
+          <a class="navbar-brand" href="#"><img src="./img/U TAN SEA RESORT/logo2.jpeg" alt="" srcset=""></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+              
+              <a class="nav-link" href="#">Home</a></li>
+
+              </li>
+              <li class="nav-item">
+               <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Rooms</a>
+              </li>
+              <li class="nav-item">
+               <a class="nav-link" href="./facilities.html">Facilities</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./event.html">Event</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./gallery.html">Gallery</a>
+              </li>
+              <li class="nav-item">
+               <a class="nav-link" href="#">Contact Us</a>
+              </li>
+              
+          </div>
+        </div>
+      </nav>
+   
+        <!----------Navbar-Ends--px-lg-4 mt-5----------->
+        
+        <!------------Home Page------------->
+        <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-interval="300"id="home1">
+                <img src="./img/U TAN SEA RESORT/OTR/_DSC7316.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item" data-interval="500" id="home1">
+                <img src="./img/U TAN SEA RESORT/OTR/_DSC7338.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item" data-interval="700" id="home1">
+                <img src="./img/U TAN SEA RESORT/OTR/_DSC7356.jpg" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+
+            </button>
+          </div>        
+         <!--------booking page---->
+          <div class="container Availabilty-form">
+            <div class="row">
+                <div class="col-lg-12 bg-white shadow p-4 rounded">
+                    <form>
+                        <div class="row align-items-end">
+                            <div class="col-lg-3 mb-3">
+                                <label class="form-label" style="font-weight: 500;">Check-in</label>
+                                <input type="date" class="form-control shadow-none">
+                            </div>
+                            <div class="col-lg-3 mb-3">
+                                <label class="form-label" style="font-weight: 500;">Check-out</label>
+                                <input type="date" class="form-control shadow-none">
+                            </div>
+                            <div class="col-lg-2 mb-3">
+                                <label class="form-label" style="font-weight: 500;">Adult</label>
+                                <select class="form-select shadow-none">
+                                    <option value="1">One</option>
+                                    <option value="2">Two</option>
+                                    <option value="3">Three</option>
+                                  </select>
+                            </div>
+                            <div class="col-lg-2 mb-3">
+                                <label class="form-label" style="font-weight: 500;">Children</label>
+                                <select class="form-select shadow-none">
+                                    <option value="1">One</option>
+                                    <option value="2">Two</option>
+                                    <option value="3">Three</option>
+                                  </select>
+                            </div>
+                            <div class="col-lg-2 mb-lg-3 mt-2">
+                                <button type="submit" class="btn text-white shadow-none">Book Now</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+          </div>
+        
+
+        <!------About Page------->
+        <div class="px-4 pt-5 my-5 text-center">
+          <h1 class="display-4 text-body-emphasis">U-tan Sea Resort</h1>
+          <div class="col-lg-6 mx-auto">
+            <p class="lead mb-4"> Beautiful vistas and gusty winds greet you all through the day.
+              Sunsets are spectacular from any corner of the gorgeous property.
+              Natural lighting seeps in due to the unique architecture of the property.
+              U-Tan Sea Resort is equipped with facilities such as a massive filtered swimming pool,
+              landscaped lawns, indoor & outdoor restaurant, outdoor play areas among other facilities.
+              Every moment here is magical.</p>
+            <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
+              <button type="button" class="btn text-white btn-lg px-4">Secondary</button>
+            </div>
+          </div>
+          <div class="overflow-hidden" style="max-height: 30vh;">
+            <div class="container px-5">
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/Kr-h2q_O3nE?si=qWMNDtBqOwI6woVc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+          </div>
+        </div>
+           
+       <!-------New Rooms------>
+       <section id="rooms" class="rooms_wrapper">
+        <div class="container-fluid4">
+          
+      
+           <div class="row">
+            <div class="col-sm-12 section-title text-center mb-5 ">
+              <center> <h2 class="pb-2 mt-4">Our Favorite Rooms</h2></center>
+                 
+            </div>
+           </div>
+           <div class="row m-0">
+            <div class="col-md-4 mb-4 mb-lg-0">
+              <div data-aos="fade-up" data-aos-delay="200">
+      
+              <div class="room-items">
+                 <img src="./img/U TAN SEA RESORT/gallery1/oceanviewimg.jpeg" class="img-fluid">
+                 <div class="room-item-wrap">
+                  <div class="room-content">
+                    <h5 class="text-white mb-lg-5 text-decoration-underline">Compact Rooms</h5>
+                    <p class="text-white">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis, deserunt!</p>
+                    <p class="text-white fw-bold mt-lg-4">$220 / Per Night</p>
+                    <a class="main-btn border-white text-white mt-lg-5" href="#">Book Now</a>
+                  </div>
+                 </div>
+              </div>
+            </div>
+            </div>
+            <div class="col-md-4 mb-4 mb-lg-0">
+              <div data-aos="fade-up" data-aos-delay="400">
+      
+              <div class="room-items">
+                 <img src="./img/U TAN SEA RESORT/Classic/hl-9480331290.jpeg"  class="img-fluid">
+                 <div class="room-item-wrap">
+                  <div class="room-content">
+                    <h5 class="text-white mb-lg-5 text-decoration-underline">Standard Rooms</h5>
+                    <p class="text-white">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis, deserunt!</p>
+                    <p class="text-white fw-bold mt-lg-4">$220 / Per Night</p>
+                    <a class="main-btn border-white text-white mt-lg-5" href="">Book Now</a>
+                  </div>
+                 </div>
+              </div>
+            </div>
+            </div>
+            <div class="col-md-4 mb-4 mb-lg-0">
+              <div data-aos="fade-up" data-aos-delay="600">
+      
+              <div class="room-items">
+                 <img src="./img/U TAN SEA RESORT/gallery1/classicimg.jpeg"  class="img-fluid">
+                 <div class="room-item-wrap">
+                  <div class="room-content">
+                    <h5 class="text-white mb-lg-5 text-decoration-underline">Classic Rooms</h5>
+                    <p class="text-white">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis, deserunt!</p>
+                    <p class="text-white fw-bold mt-lg-4">$220 / Per Night</p>
+                    <a class="main-btn border-white text-white mt-lg-5" href="">Book Now</a>
+                  </div>
+                 </div>
+              </div>
+           </div>
+        </div>
+        </div>
+        </div>
+       </section>
+      
+       <section id="rooms" class="rooms_wrapper">
+        <div class="container-fluid4 mt-2">
+      
+           <div class="row m-0">
+            <div class="col-md-4 mb-4 mb-lg-0">
+              <div data-aos="fade-up" data-aos-delay="800">
+      
+              <div class="room-items">
+                 <img src="./img/U TAN SEA RESORT/gallery1/oceanviewimg.jpeg" class="img-fluid">
+                 <div class="room-item-wrap">
+                  <div class="room-content">
+                    <h5 class="text-white mb-lg-5 text-decoration-underline">OceanView Rooms</h5>
+                    <p class="text-white">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis, deserunt!</p>
+                    <p class="text-white fw-bold mt-lg-4">$220 / Per Night</p>
+                    <a class="main-btn border-white text-white mt-lg-5" href="">Book Now</a>
+                  </div>
+                 </div>
+              </div>
+              </div>
+            </div>
+            <div class="col-md-4 mb-4 mb-lg-0">
+              <div data-aos="fade-up" data-aos-delay="1000">
+      
+              <div class="room-items">
+                 <img src="./img/U TAN SEA RESORT/gallery1/gardenviewimg.JPG"  class="img-fluid">
+                 <div class="room-item-wrap">
+                  <div class="room-content">
+                    <h5 class="text-white mb-lg-5 text-decoration-underline">GardenView Rooms</h5>
+                    <p class="text-white">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis, deserunt!</p>
+                    <p class="text-white fw-bold mt-lg-4">$220 / Per Night</p>
+                    <a class="main-btn border-white text-white mt-lg-5" href="">Book Now</a>
+                  </div>
+                 </div>
+              </div>
+              </div>
+            </div>
+            <div class="col-md-4 mb-4 mb-lg-0">
+              <div data-aos="fade-up" data-aos-delay="1200">
+      
+              <div class="room-items">
+                 <img src="./img/U TAN SEA RESORT/gallery1/twobedimg.JPG"  class="img-fluid">
+                 <div class="room-item-wrap">
+                  <div class="room-content">
+                    <h5 class="text-white mb-lg-5 text-decoration-underline">Two Bedrooms Rooms</h5>
+                    <p class="text-white">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis, deserunt!</p>
+                    <p class="text-white fw-bold mt-lg-4">$220 / Per Night</p>
+                    <a class="main-btn border-white text-white mt-lg-5" href="">Book Now</a>
+                  </div>
+                 </div>
+              </div>
+              </div>
+            </div>
+          </section>
+
+ 
+
+       <!-----Testimonials-------->
+       <div id="page" class="site">
+        <div class="container5">
+          <div class="testi">
+            <div class="head">
+              <h3>"Our Clients Says"</h3>
+              <p>See What People Are Saying.</p>
+            </div>
+            <div class="body swiper">
+              <ul class="swiper-wrapper">
+                <li class="swiper-slide">
+                  <div class="wrapper">
+                    <div class="thumbnail">
+                      <img src="./img/U TAN SEA RESORT/gallery1/classicimg.jpeg" alt="" srcset="">
+                    </div>
+                    <div class="aside">
+                      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est eos reiciendis enim sint ullam adipisci magni 
+                        sapiente quia at rem! Libero beatae error cumque quis?</p>
+                      <div class="name">
+                        <h4>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sarah Malik</h4>
+                        <p>⭐⭐⭐⭐</p>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li class="swiper-slide">
+                  <div class="wrapper">
+                    <div class="thumbnail">
+                      <img src="./img/U TAN SEA RESORT/gallery1/gardenviewimg.JPG" alt="" srcset="">
+                    </div>
+                    <div class="aside">
+                      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est eos reiciendis enim sint ullam adipisci magni 
+                        sapiente quia at rem! Libero beatae error cumque quis?</p>
+                      <div class="name">
+                        <h4>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Malik</h4>
+                        <p>⭐⭐⭐</p>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+              <div class="swiper-pagination"></div>
+
+              <div class="swiper-button-prev"></div>
+              <div class="swiper-button-next"></div>
+            </div>
+          </div>
+        </div>
+       </div>
+       
+       
+       <!--- <div class="container1 mt-3">
+         <h1 class="section-header">
+           Client Review 
+         </h1>
+         <div class="testimonial">
+           <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+             <div class="carousel-inner">
+               <div class="carousel-item active">
+                 <div class="single-item">
+                   <div class="row">
+                   <div class="col-md-5">
+                     <div class="profile">
+                       <div class="img-area">
+                         <img src="./img/U TAN SEA RESORT/gallery1/gardenviewimg.JPG" height="250">
+                       </div>
+                       <div class="bio">
+                         <h2>Dave Wood</h2>
+                         <h4>⭐⭐⭐⭐⭐</h4>
+   
+                       </div>
+                     </div>
+                   </div>
+                   <div class="col-md-6">
+                     <div class="content">
+                       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque, null Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, accusamus?</p>
+                     </div>
+                   </div>
+                   </div>
+                 </div>
+                </div>
+               <div class="carousel-item">
+                 <div class="single-item">
+                   <div class="row">
+                   <div class="col-md-5">
+                     <div class="profile">
+                       <div class="img-area">
+                         <img src="./img/U TAN SEA RESORT/gallery1/oceanviewimg.jpeg" height="250">
+                       </div>
+                       <div class="bio">
+                         <h2>Dave Wood</h2>
+                         <h4>⭐⭐⭐</h4>
+   
+                       </div>
+                     </div>
+                   </div>
+                   <div class="col-md-6">
+                     <div class="content">
+                       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, consectetur.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque, nulla!</p>
+                     </div>
+                   </div>
+                   </div>
+                 </div>
+               </div>
+               <div class="carousel-item">
+                 <div class="single-item">
+                   <div class="row">
+                   <div class="col-md-5">
+                     <div class="profile">
+                       <div class="img-area">
+                         <img src="./img/U TAN SEA RESORT/gallery1/oceanviewimg.jpeg" height="250">
+                       </div>
+                       <div class="bio">
+                         <h2>Dave Wood</h2>
+                         <h4>⭐⭐⭐⭐⭐</h4>
+   
+                       </div>
+                     </div>
+                   </div>
+                   <div class="col-md-6">
+                     <div class="content">
+                       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, consectetur.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque, nulla!</p>
+                     </div>
+                   </div>
+                   </div>
+                 </div>
+               </div>
+             
+             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+             data-bs-slide="prev">
+             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+             <span class="visually-hidden">Previous</span>
+           </button>
+           <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+             data-bs-slide="next">
+             <span class="carousel-control-next-icon" aria-hidden="true"></span>
+             <span class="visually-hidden">Next</span>
+           </button>
+         </div>
+           </div>
+         </div>
+        </div>-->
+   
+            
+<!-----footer--------->
+
+  
+  <footer class="bg-dark text-white pt-5 pb-4">
+      <div class="container6 text-center text-md-left">
+       <div class="row text-center text-md-left">
+        <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+       
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3765.541452064208!2d72.78475767480664!3d19.30229724483011!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b8e3a9fa723b%3A0xa9177e2b063b0e32!2sU-Tan%20Sea%20Resort%20at%209167774307!5e0!3m2!1sen!2sin!4v1701838520571!5m2!1sen!2sin" width="350" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  
+
+        </div>
+        <div class="col-md-4 col-lg-4 col-xl-4 mt-3">
+          <h5 class="text-uppercase mb-4 font-weight-bold text-white">Contact US</h5>
+          <p>
+            <i class="fas fa-home mr-3"></i>
+            
+          </p>
+          <p>
+            <i class="fas fa-envelope mr-3"></i>
+          </p>
+          <p>
+            <i class="fas fa-phone mr-3"></i>
+          </p>
+          <p>
+            <i class="fas fa-print mr-3"></i>
+          </p>
+        </div>
+        
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+          <h5 class="text-uppercase mb-4 font-weight-bold text-white"><u>Quick Links</u></h5>
+          <p>
+            <a href="#" class="text-white" style="text-decoration: none;">Home</a>
+          </p>
+          <p>
+            <a href="#" class="text-white" style="text-decoration: none;">About</a>
+          </p>
+          <p>
+            <a href="#" class="text-white" style="text-decoration: none;">Rooms</a>
+          </p>
+          <p>
+            <a href="#" class="text-white" style="text-decoration: none;">Facilities</a>
+          </p>
+        </div>
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+            <h5 class="text-uppercase mb-4 font-weight-bold" id="link"><u> Links</u></h5>
+            <p>
+              <a href="#" class="text-white" style="text-decoration: none;">Gallery</a>
+            </p>
+            <p>
+              <a href="#" class="text-white" style="text-decoration: none;">Event</a>
+            </p>
+            <p>
+              <a href="#" class="text-white" style="text-decoration: none;">Contact US</a>
+            </p>
+          
+          </div>
+         
+       </div>
+
+       <hr class="mb-4">
+       <div class="row align-item-center">
+         <div class="col-md-7 col-lg-8">
+            <p>Copyright @2023 All Right Reservd By:
+                   <a href="#" style="text-decoration: none;">
+                    <strong class="text-warning">revmerito</strong>
+                   </a> </p>
+         </div>
+         <div class="col-md-5 col-lg-4">
+          <div class="text-center text-md-right">
+           <ul class="list-unstyled list-inline">
+            <li class="list-inline-item">
+              <a href="#" class="btn-floating btn-sm text-white" style="font-size: 23px;"><i class="fab fa-facebook"></i></a>
+            </li>
+            <li class="list-inline-item">
+              <a href="#" class="btn-floating btn-sm text-white" style="font-size: 23px;"><i class="fab fa-twitter"></i></a>
+            </li>
+            <li class="list-inline-item">
+              <a href="#" class="btn-floating btn-sm text-white" style="font-size: 23px;"><i class="fab fa-instagram"></i></a>
+            </li>
+            <li class="list-inline-item">
+              <a href="#" class="btn-floating btn-sm text-white" style="font-size: 23px;"><i class="fab fa-linkedin-in"></i></a>
+            </li>
+            <li class="list-inline-item">
+              <a href="#" class="btn-floating btn-sm text-white" style="font-size: 23px;"><i class="fab fa-youtube"></i></a>
+            </li>
+           </ul>
+          </div>
+         </div>
+       </div>
+      </div>
+
+  </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+           
+
+        
+            <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+           <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+           <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js" integrity="sha512-gY25nC63ddE0LcLPhxUJGFxa2GoIyA5FLym4UJqHDEMHjp8RET6Zn/SHo1sltt3WuVtqfyxECP38/daUc/WVEA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+           <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+                <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+                 <script src="app.js"></script>
+        
+          
+                
+                <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+                <script>
+                  AOS.init();
+                </script>
+                  <script>
+                      const navEl=document.querySelector('.navbar');
+                      window.addEventListener('scroll', () => {
+                   if(window.scrollY >= 56){
+                     navEl.classList.add('navbar-scrolled');
+                     } 
+                     else if(window.scrollY < 56 ){
+                        navEl.classList.remove('navbar-scrolled');
+                     }
+                        });
+                        
+              </script>
+
+
+
+            
+         
+        <script>
+                        const swiper = new Swiper('.swiper', {
+                  autoHeight:true,
+                loop: true,
+
+                // If we need pagination
+                pagination: {
+                  el: '.swiper-pagination',
+                },
+
+                // Navigation arrows
+                navigation: {
+                  nextEl: '.swiper-button-next',
+                  prevEl: '.swiper-button-prev',
+                },
+
+              
+              });
+        </script>
+
+
+</body>
+</html>
+
+
+
+<!-----------
+
+
+     
+  
+
+
+  <div class="carousel">
+    <div class="list">
+      <div class="item">
+        <img src="./img/U TAN SEA RESORT/gallery1/oceanviewimg.jpeg">
+        <div class="content">
+          <div class="author">U-tan Rooms</div>
+          <div class="title"> Our Compact </div>
+          <div class="topic">Rooms</div>
+          <div class="des">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, minima.
+          </div>
+          <div class="buttons">
+            <button><a href="./event.html">Book Now</a></button>
+            <button>Book Now</button>
+          </div>
+        </div>
+      </div>
+      <div class="item">
+        <img src="./img/U TAN SEA RESORT/Prasant/IMG_0953.JPG">
+        <div class="content">
+          <div class="author">Lundev</div>
+          <div class="title">Design Slide</div>
+          <div class="topic">Animals</div>
+          <div class="des">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, minima.
+          </div>
+          <div class="buttons">
+            <button>Book Now</button>
+            <button>Book Now</button>
+          </div>
+        </div>
+      </div>
+      <div class="item">
+        <img src="./img/U TAN SEA RESORT/Prasant/IMG_0961.JPG">
+        <div class="content">
+          <div class="author">Lundev</div>
+          <div class="title">Design Slide</div>
+          <div class="topic">Animals</div>
+          <div class="des">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, minima.
+          </div>
+          <div class="buttons">
+            <button>Book Now</button>
+            <button>Book Now</button>
+          </div>
+        </div>
+      </div>
+      <div class="item">
+        <img src="./img/U TAN SEA RESORT/Prasant/IMG_0977.JPG">
+        <div class="content">
+          <div class="author">Lundev</div>
+          <div class="title">Design Slide</div>
+          <div class="topic">Animals</div>
+          <div class="des">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, minima.
+          </div>
+          <div class="buttons">
+            <button>Book Now</button>
+            <button>Book Now</button>
+          </div>
+        </div>
+      </div>
+    </div>
+   <!---------Thumbnail-----
+    <div class="thumbnail">
+      <div class="item">
+        <img src="./img/U TAN SEA RESORT/CYRUS/IMG-20221220-WA0037.jpg">
+        <div class="content">
+          <div class="title">
+            Name Slider
+          </div>
+          <div class="des">
+            descrition 
+          </div>
+        </div>
+      </div>
+      <div class="item">
+        <img src="./img/U TAN SEA RESORT/Prasant/IMG_0953.JPG">
+        <div class="content">
+          <div class="title">
+            Name Slider
+          </div>
+          <div class="des">
+            descrition 
+          </div>
+        </div>
+      </div>
+      <div class="item">
+        <img src="./img/U TAN SEA RESORT/Prasant/IMG_0961.JPG">
+        <div class="content">
+          <div class="title">
+            Name Slider
+          </div>
+          <div class="des">
+            descrition 
+          </div>
+        </div>
+      </div>
+      <div class="item">
+        <img src="./img/U TAN SEA RESORT/Prasant/IMG_0977.JPG">
+        <div class="content">
+          <div class="title">
+            Name Slider
+          </div>
+          <div class="des">
+            descrition 
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--arrows-
+    <div class="arrows">
+      <button id="prev"><</button>
+      <button id="next">></button>
+    </div>
+    <div class="time"></div>
+   </div>
+  </section>-------->
+
